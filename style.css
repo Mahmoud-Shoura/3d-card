@@ -28,8 +28,8 @@ body {
 
 .container .card {
     width: 300px;
-    height: 300px;
-    margin: 50px 20px;
+    height: 200px;
+    margin: 30px 20px;
     background: rgba(255, 255, 255, 0.1);
     display: flex;
     border-radius: 4px;
@@ -50,7 +50,7 @@ body {
     right: 0;
     min-width: initial; /* img size */
     width: 300px; /* img size */
-    height: 260px; /* img size */
+    height: 220px; /* img size */
     border-radius: 4px;
     z-index: 1;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
@@ -63,7 +63,12 @@ body {
     left: 20px;
     right: 20px;
     width: 260px;
+    height: 190px;
     transform: translate3d(0,0,75px);
+}
+
+.js-tilt-glare {
+    border-radius: 4px;
 }
 
 .container .card .imgBx img {
